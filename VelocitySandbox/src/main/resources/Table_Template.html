@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<style>
+    .TABLE_HEADER {
+        background: #b8b7b7;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .SUB_HEADER {
+        background: #dcdcdc;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .ACCESED_RULES {
+        background-color: #88f995;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .DECLINED_RULES {
+        background-color: #ff8888;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    table, th, td {
+        border: 3px solid black;
+        border-collapse: collapse;
+    }
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: #333;
+    }
+</style>
+
+<body>
+<h2>Статистика прав для пользователя:</h2>
+<h4>
+    Имя: "dummy_name"
+    <br>
+        Табельный номер: "dummy_number"
+        <br>
+            Другая важная инфа
+        </br>
+    </br>
+    <hr>
+</h4>
+
+<table>
+    <tr class="TABLE_HEADER">
+        <td colspan="3">Разрешенные привелегии</td>
+    </tr>
+    <tr class="SUB_HEADER">
+        <td>ID привелегии</td>
+        <td>Роли имеющие данную привелению</td>
+    </tr>
+
+    <tr class="ACCESED_RULES">
+        <td>Wow</td>
+        <td>this is important information</td>
+    </tr>
+    <tr class="ACCESED_RULES">
+        <td>Wow</td>
+        <td>Another important information</td>
+    </tr>
+</table>
+
+<hr>
+
+<table>
+    <tr class="TABLE_HEADER">
+        <td colspan="3">Запрещенные привелении</td>
+    </tr>
+    <tr class="SUB_HEADER">
+        <td>ID привелегии</td>
+        <td>Причина отказа</td>
+        <td>Роли имеющие данную прпвелегию</td>
+    </tr>
+
+    <tr class="DECLINED_RULES">
+        <td>Wow</td>
+        <td>U are declined</td>
+        <td>God</td>
+    </tr>
+    <tr class="DECLINED_RULES">
+        <td>Wow</td>
+        <td>idk why</td>
+        <td>nobody</td>
+    </tr>
+</table>
+</body>
+
+</html>
